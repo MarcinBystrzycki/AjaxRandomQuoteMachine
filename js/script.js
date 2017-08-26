@@ -29,10 +29,15 @@ function createTweet(input) {
 	}
 }
 
+
 $(function() {
 	getQuote();
 
 	$('.trigger').click(function() {
 		getQuote();
 	})
+	$('body').animate({background: "linear-gradient(to right, #514a9d, #24c6dc)"});
+		//$('.container').animate({marginTop: '30vh'}, 500);
+	$('.container').hide();
+	$('.container').fadeIn(1000);
 });
