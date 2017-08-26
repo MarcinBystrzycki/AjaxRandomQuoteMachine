@@ -5,12 +5,10 @@ $font: 'Crushed', cursive
 body
   background: $color2
   color: white
-  height: 100%
   position: relative
 
 .container
   margin-top: 20vh
-  
   overflow: hidden
 
 h1
@@ -104,16 +102,23 @@ a
 
 @media screen and (max-width: 992px) 
   .container
-    margin-top: 10vh
+    margin-top: 5vh
   .quote
     padding: 70px 40px 0 40px
     font-size: 35px
   .oval1
     left: 63%
 
+@media screen and (max-width: 525px)
+  .container
+    margin-top: 0
+  .trigger
+    top: 25%
+  .tweet
+    top: 25%
+
 @media screen and (max-width: 480px)
   .quote
-    padding: 60px 40px 0 40px
     font-size: 26px
   .oval1
     left: 61%
