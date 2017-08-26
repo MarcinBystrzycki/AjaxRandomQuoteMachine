@@ -37,6 +37,9 @@ $(function() {
 		getQuote();
 	});
 
-	$('.container').hide();
-	$('.container').fadeIn(2000);
+	$('header, .div2').hide();
+	$('header, .div2').fadeIn(1500);
+	$('.trigger').animate({left: '38%'}, 500);
+	$('.tweet').animate({right: '38%'}, 850);
+
 });
