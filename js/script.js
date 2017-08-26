@@ -39,7 +39,7 @@ $(function() {
 
 	$('header, .div2').hide();
 	$('header, .div2').fadeIn(1500);
-	$('.trigger').animate({left: '38%'}, 500);
-	$('.tweet').animate({right: '38%'}, 850);
+	$('.trigger').animate({left: '25%'}, 500);
+	$('.tweet').animate({right: '25%'}, 850);
 
 });
