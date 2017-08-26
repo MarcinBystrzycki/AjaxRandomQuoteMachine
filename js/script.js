@@ -37,20 +37,7 @@ $(function() {
 		getQuote();
 	});
 
-	$('header, .div2').hide();
-	$('header, .div2').fadeIn(1500);
-	if ($(window).width() > 1200) {
-		$('.trigger').animate({left: '38%'}, 500);
-		$('.tweet').animate({right: '38%'}, 850);
-	} else if ($(window).width() > 900) {
-		$('.trigger').animate({left: '35%'}, 500);
-		$('.tweet').animate({right: '35%'}, 850);
-	} else if ($(window).width() > 525) {
-		$('.trigger').animate({left: '25%'}, 500);
-		$('.tweet').animate({right: '25%'}, 850);
-	} else {
-		$('.trigger').animate({left: '10%'}, 500);
-		$('.tweet').animate({right: '10%'}, 850);
-	}
-	
+	$('header, .div1, .div2').hide();
+	$('header, .div1, .div2').fadeIn(1500);
+
 });
